@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-sacale=1.0">
+	<link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+
+<body>
+
+	<div>
+		<h1 id="titulo">Cadastro da Base do Detran</h1>
+		<br>
+		<p id="subtitulo">Complete suas informações:</p>
+		<br>
+	</div>
+
+	<form>
+		<fieldset class="grupo">
+			<div>
+				<label for="nome"><strong>Nome</strong>:</label>
+				<input type="text" name="nome" id="nome" required>
+			</div>
+			<br>
+
+			<div>
+				<label for="idade"><strong>Idade</strong>:</label>
+				<input type="number" name="idade" id="idade" name="quantidade" min="18"  max="100">
+			</div>
+			<br>
+
+			<div>
+				<label for="profissao"><strong>Profissão</strong>:</label>
+				<input type="text" name="profissao" id="profissao">
+			</div>
+			<br>
+
+			<div>
+				<label for="email"><strong>Email</strong>:</label>
+				<input type="email" name="email" id="email" required>
+			</div>
+			<br>
+
+			<div>
+				<label><strong>Telefone</strong>:</label>
+				<input type="text" name="telefone" id="telefone" >
+			</div>
+			<br>
+
+			<button class="envio" type="submit"> Concluído </button>
+		</fieldset>
+	</form>
+</body>
+</html>
